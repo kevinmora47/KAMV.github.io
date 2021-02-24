@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://use.typekit.net/imk5ygk.css" />
-    <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="stylesheet" href="./src/css/index/index.css" />
   </head>
   <body>
     <header class="header">
@@ -30,14 +30,16 @@
                 alt="main"
             /></a>
           </li>
-          <li class="menu__item pointer">Home</li>
-          <li class="menu__item pointer">Blog</li>
-          <li class="menu__item pointer">About</li>
-          <li class="menu__item pointer">Contact Me</li>
+          <li class="menu__item">Home</li>
+          <li class="menu__item">Blog</li>
+          <li class="menu__item">About</li>
+          <li class="menu__item">Contact Me</li>
         </ul>
       </nav>
       <ul class="menu">
-        <li class="menu__item menu__item-linkedin pointer">Linkedin</li>
+        <li class="">
+          <a href="" class="menu__item menu__item-linkedin">Linkedin</a>
+        </li>
         <li class="menu__item menu__item-resume pointer">Resume</li>
         <li class="menu__item menu__item-log-in pointer">Log In</li>
       </ul>
@@ -45,16 +47,19 @@
     <main class="main">
       <div class="main__container">
         <div class="sub-container-left">
-          <div class="main__title">
-            <h1 class="main__header">Hey, I'm Kevin, a Frontend Developer.</h1>
+          <div class="title">
+            <h1 class="title__header">Hey, I'm Kevin, a Frontend Developer.</h1>
           </div>
           <div class="main-info">
             <p class="main-desc">
-              "Hey I'm a frontend developer who loves how to build things with
-              web technologies."
+              "My name is Kevin I'm a 21 years old frontend developer who loves
+              how to build things with web technologies."
             </p>
           </div>
-          <div class="main-technologies">
+          <div class="repo">
+            <a href="" class="menu__item repo__item-github">Github Projects</a>
+          </div>
+          <div class="main__technologies">
             <ul class="tech__container">
               <li class="tech__item">
                 <img src="./public/assets/html5.svg" height="35" alt="" />
@@ -79,9 +84,6 @@
                 />
               </li>
             </ul>
-          </div>
-          <div class="repo">
-            <a href="" class="menu__item repo__item-github">Github</a>
           </div>
         </div>
         <div class="sub-container-right ilustration">

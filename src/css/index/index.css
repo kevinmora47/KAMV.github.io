@@ -50,36 +50,25 @@ a {
   padding: var(--lg-pd);
 }
 
-.header__menu {
-  min-width: 200px;
-  /* border: orange solid 1px; */
-}
-
 .menu {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 80px;
+  justify-content: space-between;
+  height: 60px;
   min-width: 250px;
-}
-
-.pointer {
-  cursor: pointer;
-}
-
-.pointer:hover {
-  cursor: pointer;
 }
 
 .menu__item {
   padding: var(--x-sm-pd);
-  font-family: myriad-pro sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: black;
   font-size: var(--md-text);
-  margin-right: var(--sm-mg);
-  border-radius: 10px;
+  font-weight: 700;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu__item-logo {
+  margin-right: var(--lg-pd);
 }
 
 .menu__item-linkedin {
@@ -134,7 +123,8 @@ a {
 .main__container {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 100%;
+  padding: var(--md-pd);
 }
 
 .sub-container-left {
@@ -143,41 +133,34 @@ a {
   align-items: center;
   justify-content: space-around;
   width: 50%;
-  height: 90%;
-  padding: var(--md-pd);
-  /* border: red 1px solid; */
+  height: 100%;
 }
 
-.sub-container-left .repo {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.main__title {
+.title {
   width: 100%;
-  /* border: red 1px solid; */
 }
 
-.main__header {
+.title__header {
   font-size: 3.5rem;
+}
+
+.main-desc {
+  margin: 0 auto;
+  color: #8d8d8d;
+  font-weight: 400;
+  font-size: var(--md-text);
+}
+
+.main__technologies {
+  width: 100%;
 }
 
 .tech__container {
   display: flex;
-  min-width: 100%;
-  padding: var(--sm-pd);
-  /* border: blue 1px solid; */
-}
-
-li > img {
-  margin-right: var(--lg-pd);
-}
-
-.main-desc {
-  color: #8d8d8d;
-  font-style: normal;
-  font-weight: 400;
-  font-size: var(--md-text);
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  min-width: 400px;
 }
 
 .sub-container-right {
@@ -185,6 +168,5 @@ li > img {
   align-items: center;
   justify-content: center;
   width: 50%;
-  height: 90%;
-  /* border: red 1px solid; */
+  height: 100%;
 }
