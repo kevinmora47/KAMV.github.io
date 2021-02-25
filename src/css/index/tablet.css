@@ -1,0 +1,21 @@
+.title__header {
+  font-size: 2.5rem;
+}
+
+.main-desc {
+  width: 70%;
+  text-align: justify;
+}
+
+.hide {
+  display: none;
+}
+
+.sub-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}

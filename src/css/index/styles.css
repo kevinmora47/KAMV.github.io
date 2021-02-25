@@ -146,6 +146,7 @@ a {
 
 .main-desc {
   margin: 0 auto;
+  text-align: justify;
   color: #8d8d8d;
   font-weight: 400;
   font-size: var(--md-text);
@@ -160,7 +161,7 @@ a {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
-  min-width: 400px;
+  min-width: 320px;
 }
 
 .sub-container-right {
