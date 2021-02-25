@@ -1,9 +1,35 @@
+:root {
+  /* Text Sizes */
+  --sm-text: 0.75rem;
+  --md-text: 1rem;
+  --lg-text: 1.5rem;
+
+  /* Margin variables. */
+  --sm-mg: 0.75rem;
+  --md-mg: 1rem;
+  --lg-mg: 1.5rem;
+
+  /* Padding classes */
+  --x-sm-pd: 0.5rem;
+  --sm-pd: 0.75rem;
+  --md-pd: 1rem;
+  --lg-pd: 3rem;
+}
+
+.header {
+  padding: var(--sm-pd);
+}
+
+.main {
+  padding: 0 var(--sm-pd);
+}
+
 .title__header {
   font-size: 2.5rem;
 }
 
 .main-desc {
-  width: 70%;
+  width: 80%;
   text-align: justify;
 }
 
