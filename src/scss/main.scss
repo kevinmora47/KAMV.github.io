@@ -1,0 +1,24 @@
+// || Abstracts styles.
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixings";
+
+// || Resets styles.
+@import "base/reset";
+@import "base/typography";
+
+// || Layout Styles.
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/menu";
+@import "layout/forms";
+@import "layout/grid";
+
+// || Component Styles.
+@import "components/buttons";
+@import "components/navigation";
+
+// ||    Pages styles.
+@import "pages/index";

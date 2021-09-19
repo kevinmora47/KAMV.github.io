@@ -1,0 +1,49 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  min-width: 250px;
+}
+
+.menu__item {
+  padding: var(--x-sm-pd);
+  font-size: var(--md-text);
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  .menu__item-logo {
+    margin-right: var(--lg-pd);
+  }
+
+  &-linkedin {
+    color: white;
+    background-color: var(--linkedin-color);
+  }
+
+  &-linkedin:hover {
+    color: white;
+    background-color: var(--linkedin-color-dark);
+    cursor: pointer;
+  }
+
+  &-resume {
+    color: white;
+    background-color: var(--main-logo-color);
+  }
+  &-resume:hover {
+    color: white;
+    background-color: var(--main-logo-color-dark);
+    cursor: pointer;
+  }
+
+  &-log-in {
+    color: white;
+    background-color: var(--secondary-logo-color);
+  }
+  &-log-in:hover {
+    color: white;
+    background-color: var(--secondary-logo-color-dark);
+    cursor: pointer;
+  }
+}

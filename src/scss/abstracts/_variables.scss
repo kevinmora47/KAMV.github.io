@@ -1,0 +1,34 @@
+:root {
+  /* Text Sizes */
+  --sm-text: 0.75rem;
+  --md-text: 1rem;
+  --lg-text: 1.5rem;
+
+  /* Margin variables. */
+  --sm-mg: 0.75rem;
+  --md-mg: 1rem;
+  --lg-mg: 1.5rem;
+
+  /* Padding classes */
+  --x-sm-pd: 0.5rem;
+  --sm-pd: 0.75rem;
+  --md-pd: 1rem;
+  --lg-pd: 3rem;
+
+  /*Primary Colors */
+
+  // || Main hero color.
+  --primary-color: #5222d0;
+  --dark-primary-color: #4413be;
+
+  // || Linkedin color.
+  --linkedin-color:#0966c2
+  --linkedin-color-dark:#00468b;
+
+  // || Logo-colors
+  --main-logo-color: #54d0a2;
+  --main-logo-color-dark:#20b17c;
+
+  --secondary-logo-color:#b288eb;
+  --secondary-logo-color-dark: #8b52db;
+}

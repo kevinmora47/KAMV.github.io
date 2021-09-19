@@ -1,0 +1,57 @@
+.repo__item-github {
+  color: white;
+  background-color: #24292e;
+}
+
+.repo__item-github:hover {
+  background-color: #1a1d20;
+}
+
+.menu__item-icon {
+  height: 50px;
+  margin-right: var(--md-mg);
+}
+.sub-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  width: 100%;
+}
+
+.title__header {
+  font-size: 5rem;
+}
+
+.main-desc {
+  margin: 0 auto;
+  text-align: justify;
+  color: #959595;
+  // font-weight: 400;
+  font-size: var(--lg-text);
+}
+
+.main__technologies {
+  width: 100%;
+}
+
+.tech__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  min-width: 320px;
+}
+
+.sub-container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}

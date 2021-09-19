@@ -1,0 +1,25 @@
+{
+  "name": "kevinmora47.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node-sass -w src/scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmora47/kevinmora47.github.io.git"
+  },
+  "author": "Kevin Mora Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmora47/kevinmora47.github.io/issues"
+  },
+  "homepage": "https://github.com/kevinmora47/kevinmora47.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

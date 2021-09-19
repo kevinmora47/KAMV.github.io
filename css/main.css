@@ -1,0 +1,296 @@
+:root {
+  /* Text Sizes */
+  --sm-text: 0.75rem;
+  --md-text: 1rem;
+  --lg-text: 1.5rem;
+  /* Margin variables. */
+  --sm-mg: 0.75rem;
+  --md-mg: 1rem;
+  --lg-mg: 1.5rem;
+  /* Padding classes */
+  --x-sm-pd: 0.5rem;
+  --sm-pd: 0.75rem;
+  --md-pd: 1rem;
+  --lg-pd: 3rem;
+  /*Primary Colors */
+  --primary-color: #5222d0;
+  --dark-primary-color: #4413be;
+  --linkedin-color:#0966c2
+  --linkedin-color-dark:#00468b;
+  --main-logo-color: #54d0a2;
+  --main-logo-color-dark:#20b17c;
+  --secondary-logo-color:#b288eb;
+  --secondary-logo-color-dark: #8b52db; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 100%;
+  font-family: myriad-pro, sans-serif; }
+
+body {
+  overflow: hidden; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: var(--lg-pd); }
+
+.repo__item-github {
+  color: white;
+  background-color: #24292e; }
+
+.repo__item-github:hover {
+  background-color: #1a1d20; }
+
+.menu__item-icon {
+  height: 50px;
+  margin-right: var(--md-mg); }
+
+.sub-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%; }
+
+.title {
+  width: 100%; }
+
+.title__header {
+  font-size: 5rem; }
+
+.main-desc {
+  margin: 0 auto;
+  text-align: justify;
+  color: #959595;
+  font-size: var(--lg-text); }
+
+.main__technologies {
+  width: 100%; }
+
+.tech__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  min-width: 320px; }
+
+.sub-container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%; }
+
+.btn {
+  padding: var(--x-sm-pd);
+  font-size: var(--md-text);
+  border: none;
+  border-radius: 8px; }
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white; }
+  .btn-primary:hover {
+    background-color: #4413be; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  min-width: 250px; }
+
+.menu__item {
+  padding: var(--x-sm-pd);
+  font-size: var(--md-text);
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer; }
+  .menu__item .menu__item-logo {
+    margin-right: var(--lg-pd); }
+  .menu__item-linkedin {
+    color: white;
+    background-color: var(--linkedin-color); }
+  .menu__item-linkedin:hover {
+    color: white;
+    background-color: var(--linkedin-color-dark);
+    cursor: pointer; }
+  .menu__item-resume {
+    color: white;
+    background-color: var(--main-logo-color); }
+  .menu__item-resume:hover {
+    color: white;
+    background-color: var(--main-logo-color-dark);
+    cursor: pointer; }
+  .menu__item-log-in {
+    color: white;
+    background-color: var(--secondary-logo-color); }
+  .menu__item-log-in:hover {
+    color: white;
+    background-color: var(--secondary-logo-color-dark);
+    cursor: pointer; }
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  font-family: myriad-pro, sans-serif; }
+
+body {
+  overflow: hidden; }
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black; }
+
+.main {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 0 var(--lg-pd); }
+
+.main__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: var(--md-pd); }
